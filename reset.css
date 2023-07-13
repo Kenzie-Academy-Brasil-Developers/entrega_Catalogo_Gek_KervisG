@@ -1,0 +1,39 @@
+/* CSS Reset */
+
+/* Remove default margins and paddings */
+body,
+h1, h2, h3, h4, h5, h6,
+p, blockquote, pre,
+ul, ol,
+li, dl, dd,
+figure,
+figcaption,
+form, fieldset, legend,
+input, textarea, button,
+select, optgroup, option,
+label, fieldset, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  ul, ol {
+	list-style: none;
+  }
+}
+
+/* Make sure images are scaled correctly */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Add a border-box model to all elements */
+* {
+  box-sizing: border-box;
+}
+ul, ol {
+	list-style: none;
+  }
